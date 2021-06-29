@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.neon-red {
+  text-shadow: 0 0 5px #ff073a, 0 0 10px #ff073a, 0 0 20px #ff073a,
+    0 0 40px #ff073a, 0 0 80px #ff073a, 0 0 90px #ff073a, 0 0 100px #ff073a,
+    0 0 150px #ff073a;
+}
+
+.neon-blue {
+  text-shadow: 0 0 5px #1f51ff, 0 0 10px #1f51ff, 0 0 20px #1f51ff,
+    0 0 40px #1f51ff, 0 0 80px #1f51ff, 0 0 90px #1f51ff, 0 0 100px #1f51ff,
+    0 0 150px #1f51ff;
+}
+
+.neon-blue2 {
+  text-shadow: 0 0 5px #1f51ff, 0 0 10px #1f51ff, 0 0 20px #1f51ff,
+    0 0 40px #1f51ff, 0 0 80px #1f51ff, 0 0 90px #1f51ff, 0 0 100px #1f51ff,
+    0 0 150px #1f51ff;
+}
+
+.neon-purple {
+  text-shadow: 0 0 5px #b026ff, 0 0 10px #b026ff, 0 0 20px #b026ff,
+    0 0 40px #b026ff, 0 0 80px #b026ff, 0 0 90px #b026ff, 0 0 100px #b026ff,
+    0 0 150px #b026ff;
+}
+
+.neon-green {
+  text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14,
+    0 0 40px #39ff14, 0 0 80px #39ff14, 0 0 90px #39ff14, 0 0 100px #39ff14,
+    0 0 150px #39ff14;
+}
+
+/*-----Main Page------*/
+.main-page-font {
+  font-family: 'Londrina Outline', cursive;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 5vw;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.main-page-bground {
+  background: url(/imgs/img4.png) no-repeat center center fixed;
+  height: 1200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*---NAV SECTION--*/
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: rgb(179, 14, 31);
+}
+
+.topnav a.active {
+  color: rgb(10, 2, 2);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/*----Events---*/
+
+.events-page-bground {
+  background: linear-gradient(
+      rgba(245, 246, 252, 0.52),
+      rgba(45, 12, 213, 0.73)
+    ),
+    url(/imgs/b-ground-3.jpg) no-repeat center center fixed;
+  height: 1200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.events-h1 {
+  font-size: 3vw;
+  font-family: 'Play', sans-serif;
+  color: rgb(189, 229, 235);
+  text-align: center;
+  padding-left: 320px;
+}
+
+.avalon-event1 {
+  font-family: 'Londrina Outline', cursive;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.avalon-h1 {
+  font-size: 5vw;
+}
+
+.avalon-h2 {
+  font-size: 3vw;
+  margin-right: 280px;
+  margin-top: -20px;
+}
+
+/*----About---*/
+
+.about-page-bground {
+  background: linear-gradient(
+      rgba(245, 246, 252, 0.52),
+      rgba(45, 12, 213, 0.73)
+    ),
+    url(/imgs/img7.png);
+  height: 1200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*-------Mobile Code Section--------*/
+@media only screen and (max-device-width: 480px) {
+  /*----Main Page ----*/
+  #main-page-h1 {
+    position: absolute;
+    font-size: 12vw;
+    margin-top: 45px;
+    margin-left: 25px;
+  }
+  /*----Events Section----*/
+  #events-mobile-background {
+    background-image: linear-gradient(#45454500, rgba(255, 255, 255, 0)),
+      url(/imgs/mPic2.jpg);
+    float: none;
+    width: 100%;
+  }
+
+  #events-avalon-h1 {
+    font-size: 9vw;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+  }
+
+  #events-avalon-h2 {
+    font-size: 6vw;
+    position: absolute;
+    padding-left: 35px;
+    padding-top: 5px;
+    text-overflow: hidden;
+    white-space: nowrap;
+  }
+
+  /*----About Section----*/
+  #m-about {
+    background: linear-gradient(#45454500, rgba(255, 255, 255, 0)),
+      url(/imgs/img2.png);
+    float: none;
+    width: 100%;
+    position: absolute;
+  }
+  /*----Nav Section----*/
+  #nav-m {
+    position: absolute;
+    padding-left: 80px;
+  }
+}
