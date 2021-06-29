@@ -148,6 +148,7 @@
       url(/imgs/m-pic-3.JPG);
     float: none;
     width: 100%;
+    background-attachment: fixed;
   }
 
   #main-page-h1 {
