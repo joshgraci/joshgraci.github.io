@@ -141,6 +141,12 @@
 }
 
 /*-------Mobile Code Section--------*/
+@supports (-webkit-touch-callout: none) {
+  .entry-content .gb-container {
+    background-attachment: scroll;
+  }
+}
+
 @media only screen and (max-device-width: 680px) {
   /*----Main Page ----*/
   #main-m-background {
